@@ -1,0 +1,132 @@
+.logo__mi{
+    width: 32px;
+}
+@media screen and (max-width:1024px) {
+    .rigt-nav-icons{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        position: absolute;
+        right: 100px;
+        top: 7px;
+    }
+}
+.nav-link{
+    color: black;
+    border-bottom: solid 2px transparent;
+}
+.nav-link:hover{
+    color: #ff6900;
+    border-bottom: solid 2px #ff6900;
+}
+.rigt-nav-icons .nav-link{
+    border-bottom: 0px
+}
+.rigt-nav-icons .nav-link:hover{
+    color: #000000;
+    border-bottom: 0px
+}
+.logo__mi .logo__home{
+    transform: translateX(-110px);
+    transition: ease-in-out 0.5s;
+}
+.logo__mi:hover .logo__home{
+    transform: translateX(0px);
+    transition: ease-in-out 0.5s;
+}
+.carousel-caption{
+    right: auto;
+    left: 10%;
+    text-align: left;
+    bottom: auto;
+    top: 35%;
+}
+.carousel-caption h5{
+    font-size: 2rem;
+}
+.content-img-captions{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.content-img-captions h1 {
+    font-size: 1.6rem;
+    color: white;
+}
+.content-img-captions h4 a, .content-img-captions-laptop h4 a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+.content-img-captions h4 a:hover, .content-img-captions-laptop h4 a:hover{
+    text-decoration: underline;
+}
+.content-img-captions h4 i, .content-img-captions-laptop h4 i{
+    color: white;
+    font-size: 1rem;
+}
+.content-img-captions-laptop{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    left: 28%;
+    transform: translateX(-28%);
+    text-align: center;
+}
+
+.content-img-captions-laptop h1 {
+    font-size: 1.6rem;
+    color: white;
+}
+.trimmer h1{
+    color: black;
+}
+.trimmer h4 a , .trimmer h4 i{
+    color: rgb(240, 120, 0);
+}
+.box-shadow:hover{
+    box-shadow: 1px 1px 4px 2px rgb(0,0,0, 0.1);
+}
+.box-link{
+    cursor: pointer;
+}
+.content-bg{
+    background-color: #f2f2f2;
+}
+.footer h6{
+    color: white;
+}
+.footer ul{
+    padding: 0px;
+}
+.footer ul li{
+    list-style: none;
+    line-height: 2rem;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 0.9rem;
+}
+.footer ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.footer-social-icons a{
+    font-size: 1.4rem;
+    color: rgb(197, 197, 197);
+    margin-right: 10px;
+    text-decoration: none;
+}
+.footer-social-icons a:hover{
+    color: white;
+}
+.subscrib{
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 100%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
